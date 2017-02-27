@@ -9,7 +9,7 @@ The main use case for this loader comes when using a JSON settings file containi
 
 Let's say your `settings.json` looks like this:
 
-```json
+```js
 {
   environment: 'production',
   secret: 'password',
