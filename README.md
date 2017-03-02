@@ -46,6 +46,7 @@ module.exports = {
       test: /\.json$/,
       use: 'json-strip-loader', // Simply load the file
       use: 'json-strip-loader?key=secret', // Remove the keys names `secret` from the files
+      use: 'json-strip-loader?key=secret&deep=false', // Remove `secret` only from the root level
       use: 'json-strip-loader?keys[]=secret,keys[]=server' // Remove the keys names `secret` and `server` from the files
     }]
   }
