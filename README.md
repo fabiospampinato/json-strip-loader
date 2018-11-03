@@ -1,8 +1,5 @@
 # JSON Strip Loader
 
-![Issues](https://img.shields.io/github/issues/fabiospampinato/json-strip-loader.svg)
-[![NPM version](https://img.shields.io/npm/v/json-strip-loader.svg)](https://www.npmjs.com/package/json-strip-loader)
-
 JSON loader for Webpack, with support for keys stripping, useful in isomorphic builds for storing secrets in JSON files.
 
 The main use case for this loader comes when using a JSON settings file containing some secret keys, that you want to use on the server but don't want to make public on the client.
