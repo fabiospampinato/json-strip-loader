@@ -45,7 +45,7 @@
     "@types/lodash": "^4.14.117",
     "loader-utils": "^1.0.2",
     "lodash": "^4.17.11",
-    "strip-keys": "^1.0.0"
+    "strip-keys": "^1.0.3"
   },
   "devDependencies": {
     "ava": "^0.18.2",
