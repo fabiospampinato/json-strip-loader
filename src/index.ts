@@ -25,4 +25,4 @@ function JSONStripLoader ( source ) {
 
 /* EXPORT */
 
-export = Object.assign ( JSONStripLoader, { default: JSONStripLoader } );
+export default JSONStripLoader;
