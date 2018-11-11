@@ -1,6 +1,6 @@
 {
   "name": "json-strip-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JSON loader for Webpack, with support for keys stripping, useful in isomorphic builds for storing secrets in JSON files.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
