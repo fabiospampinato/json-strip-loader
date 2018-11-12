@@ -10,11 +10,6 @@
     "compile:watch": "tsc --skipLibCheck --watch",
     "prepublishOnly": "npm run clean && npm run compile"
   },
-  "ava": {
-    "files": [
-      "test/index.js"
-    ]
-  },
   "bugs": {
     "url": "https://github.com/fabiospampinato/json-strip-loader/issues"
   },
@@ -41,9 +36,6 @@
     "strip-keys": "^1.0.4"
   },
   "devDependencies": {
-    "ava": "^0.18.2",
-    "ava-spec": "^1.1.0",
-    "nyc": "^10.1.2",
     "rimraf": "^2.6.0",
     "typescript": "~3.0.3",
     "typescript-transform-export-interop": "^1.0.0"
