@@ -11,7 +11,7 @@ import * as utils from 'loader-utils';
 
 function JSONStripLoader ( source ) {
 
-	if ( this.cacheable ) this.cacheable ();
+  if ( this.cacheable ) this.cacheable ();
 
   const obj = isString ( source ) ? JSON.parse ( source ) : source,
         options = utils.getOptions ( this ),
@@ -19,7 +19,7 @@ function JSONStripLoader ( source ) {
         deep = options && options.hasOwnProperty ( 'deep' ) ? !!options.deep : true,
         value = keys.length ? stripKeys ( obj, keys, deep ) : obj;
 
-	return `module.exports = ${JSON.stringify ( value )};`;
+  return `module.exports = ${JSON.stringify ( value )};`;
 
 }
 
